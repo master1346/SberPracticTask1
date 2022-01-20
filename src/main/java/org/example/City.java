@@ -25,4 +25,13 @@ public class City {
                 ", foundation=" + foundation +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
 }
